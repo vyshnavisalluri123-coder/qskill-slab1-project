@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌐 QSkill Internship - Slab 1 Project
 
 A React + Tailwind web application built for the **Qwin Internship (Front-End Development)**.  
