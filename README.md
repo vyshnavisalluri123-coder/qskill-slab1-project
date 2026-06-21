@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# 🌐 QSkill Internship - Slab 1 Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React + Tailwind web application built for the **Qwin Internship (Front-End Development)**.  
+This project includes a **Text Translator** using RapidAPI and a **Random String Generator** with React hooks, along with client-side routing.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✅ Tasks Completed
+- Translator App (React + Tailwind + RapidAPI)  
+- Random String Generator (React hooks: useState, useCallback, useEffect)  
+- Client-side Routing (react-router-dom)  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
+- Translate text from English into your favorite language.  
+- Generate random strings with React hooks.  
+- Navigate between features using client-side routing.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Tech Stack
+- React  
+- Tailwind CSS  
+- RapidAPI  
+- React Router DOM  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure
+- `src/App.js` → Main app with routing  
+- `src/Translator.js` → Translator component  
+- `src/RandomString.js` → Random string generator  
+- `public/` → Static assets  
+- `README.md` → Project documentation  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ How to Run
+To run this project locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# 1. Clone the repository and navigate to the folder
+git clone https://github.com/vyshnavisalluri123-coder/qskill-slab1-project.git
+cd qskill-slab1-project
 
-### `npm run eject`
+# 2. Install dependencies
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 3. Start the app
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🗑️ .gitignore
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project includes a `.gitignore` file to keep the repository clean and professional.  
+It prevents unnecessary or sensitive files from being pushed to GitHub.
 
-## Learn More
+```bash
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# testing
+/coverage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# production
+/build
 
-### Code Splitting
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+## 📸 Screenshots
 
-### Analyzing the Bundle Size
+### Translator Page
+![Translator Screenshot](./screenshots/translator.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Random String Generator
+![Random String Screenshot](./screenshots/randomstring.png)
 
-### Making a Progressive Web App
+### App Home / Routing
+![App Home Screenshot](./screenshots/home.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
