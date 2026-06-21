@@ -81,6 +81,8 @@ It prevents unnecessary or sensitive files from being pushed to GitHub.
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
 ## 📸 Screenshots
 
 ### Translator Page
