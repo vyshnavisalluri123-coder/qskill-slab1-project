@@ -52,38 +52,8 @@ npm install
 npm start
 
 ---
-
-## 🗑️ .gitignore
-
-This project includes a `.gitignore` file to keep the repository clean and professional.  
-It prevents unnecessary or sensitive files from being pushed to GitHub.
-
-```bash
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
----
 ## 📸 Screenshots
+
 ### Translator Page
 ![Translator Screenshot](./screenshots/translator.png)
 
