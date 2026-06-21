@@ -50,15 +50,3 @@ npm install
 # 3. Start the app
 npm start
 
----
-## 📸 Screenshots
-
-### Translator Page
-![Translator Screenshot](./screenshots/translator.png)
-
-### Random String Generator
-![Random String Screenshot](./screenshots/randomstring.png)
-
-### App Home / Routing
-![App Home Screenshot](./screenshots/home.png)
----
