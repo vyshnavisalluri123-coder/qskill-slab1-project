@@ -84,7 +84,6 @@ yarn-error.log*
 
 
 ## 📸 Screenshots
-
 ### Translator Page
 ![Translator Screenshot](./screenshots/translator.png)
 
