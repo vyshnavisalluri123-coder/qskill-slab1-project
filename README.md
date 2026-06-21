@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 QSkill Internship - Slab 1 Project
 
 A React + Tailwind web application built for the **Qwin Internship (Front-End Development)**.  
@@ -93,3 +94,18 @@ yarn-error.log*
 
 
 
+=======
+# QSkill Internship - Slab 1 Project
+
+This repository contains the tasks completed for **Slab‑1 Internship** using React, Tailwind CSS, and RapidAPI.
+
+## ✅ Tasks Completed
+- Translator App (React + Tailwind + RapidAPI)
+- Random String Generator (React hooks)
+- Client-side Routing (react-router-dom)
+
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vyshnavisalluri123-coder/qskill-slab1-project.git
+>>>>>>> 5db25342a5c069a416edeabc9d225cb3709286ac

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "slab1-project",
+=======
+  "name": "translator-app",
+>>>>>>> 5db25342a5c069a416edeabc9d225cb3709286ac
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,17 +11,26 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "react-router-dom": "^7.18.0",
+=======
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.17.0",
+>>>>>>> 5db25342a5c069a416edeabc9d225cb3709286ac
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+<<<<<<< HEAD
     "server": "node server.js",
+=======
+>>>>>>> 5db25342a5c069a416edeabc9d225cb3709286ac
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -41,9 +54,15 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@tailwindcss/postcss": "^4.3.0",
     "autoprefixer": "^10.5.0",
     "postcss": "^8.5.15",
     "tailwindcss": "^3.4.19"
+=======
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
+>>>>>>> 5db25342a5c069a416edeabc9d225cb3709286ac
   }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import './App.css';
 import { translate, LANGUAGES } from './api/translate';
@@ -82,7 +83,37 @@ function App() {
         <p className="mt-4 text-sm text-gray-500">Uses LibreTranslate (configurable via <code>REACT_APP_TRANSLATE_API</code>).</p>
       </div>
     </div>
+=======
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Translator from "./Translator";
+import RandomString from "./RandomString";
+
+function App() {
+  return (
+    <Router>
+      <div>
+        <nav style={{ margin: "20px" }}>
+          <Link to="/translator" style={{ marginRight: "10px" }}>
+            Translator
+          </Link>
+          <Link to="/random">Random String</Link>
+        </nav>
+
+        <Routes>
+          <Route path="/" element={<Translator />} />   {/* Default route */}
+          <Route path="/translator" element={<Translator />} />
+          <Route path="/random" element={<RandomString />} />
+        </Routes>
+      </div>
+    </Router>
+>>>>>>> 5db25342a5c069a416edeabc9d225cb3709286ac
   );
 }
 
 export default App;
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 5db25342a5c069a416edeabc9d225cb3709286ac
