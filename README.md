@@ -82,7 +82,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-
+---
 ## 📸 Screenshots
 ### Translator Page
 ![Translator Screenshot](./screenshots/translator.png)
@@ -92,3 +92,4 @@ yarn-error.log*
 
 ### App Home / Routing
 ![App Home Screenshot](./screenshots/home.png)
+---
